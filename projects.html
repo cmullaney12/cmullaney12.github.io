@@ -27,31 +27,59 @@
 </head>
 
 <body id="page-top">
+
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">Colin's Site</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <br>
+    <br>
     <section class="projects" id="projects">
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">My Projects</h2>
             <hr class="star-dark mb-5">
             <br>
             <br>
-            <h3> Yelp Rating Classifier</h2>
-            <div> For this project, I gathered over 10,000 written reviews of restaurants from Yelp.com, and used various techniques to predict the 5 star rating of a review, given its text. This is an extended version of sentiment analysis: rather than simply positive or negative sentiment, my model would predict a range from 1 to 5.</div>
+            <h3> <a href="https://github.com/cmullaney12/YelpClassifier">Yelp Rating Classifier</a></h3>
+            <div> For this project, I gathered over 10,000 written reviews of restaurants from Yelp.com, and used various techniques to predict the 5 star rating of a review, given its text. This is an extended version of sentiment analysis: rather than simply positive or negative sentiment, my model would predict a range from 1 to 5. Check out my <a href="docs/Classifying Yelp Reviews.pdf">report</a>!</div>
             <br>
             <br>
-            <h3> Language Similarity</h2>
+            <h3> <a href="https://github.com/cmullaney12/LanguageSimilarity">Language Similarity</a></h3>
             <div> For this project, I calculated the similarities between multiple text files, with the goal of inferring a language type from an unknown text file.</div>
             <br>
             <br>
-            <h3> Maze Game</h2>
+            <h3> <a href="https://github.com/cmullaney12/MazeAlgoDemo">Maze Game</a></h3>
             <div> For this paired programming project, we generated a random maze, of specified dimensions, then procedurally solved it using either Breadth first or Depth first search. The results can be seen below.</div>
             <br>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
+                    <h6 style="text-align: center;padding-right:20px"> Depth First Search</h6>
                     <video width="320" height="240" loop muted autoplay>
                         <source src="vids/MazeDepthFirst.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="col-md-6 col-lg-4">
+                    <h6 style="text-align:center;padding-right:20px"> Breadth First Search</h6>
                     <video width="320" height="240" loop muted autoplay>
                         <source src="vids/MazeBreadthFirst.mp4" type="video/mp4">
                         Your browser does not support the video tag.
