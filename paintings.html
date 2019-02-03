@@ -39,13 +39,13 @@
         display: table;
         }
 
-        img {
+        .clickable-img {
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s;
         }
 
-        img:hover {opacity: 0.7;}
+        .clickable-img:hover {opacity: 0.7;}
 
         /* The Modal (background) */
         .modal {
@@ -141,35 +141,35 @@
         <div class="row">
             <div class="column">
                 <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-                    <img src="img/paintings/Branch.jpg" alt="Snow" style="width:100%">
+                    <img src="img/paintings/Branch.jpg" class="clickable-img" alt="Snow" style="width:100%">
                 </a>
             </div>
             <div class="column">
-                <img src="img/paintings/Forest.jpg" alt="Forest" style="width:100%">
+                <img src="img/paintings/Forest.jpg" class="clickable-img" alt="Forest" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Tree.jpg" alt="Mountains" style="width:100%">
+                <img src="img/paintings/Tree.jpg" class="clickable-img" alt="Mountains" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Sun.jpg" alt="Snow" style="width:100%">
+                <img src="img/paintings/Sun.jpg" class="clickable-img" alt="Snow" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Sunset.jpg" alt="Forest" style="width:100%">
+                <img src="img/paintings/Sunset.jpg" class="clickable-img" alt="Forest" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Night.jpg" alt="Mountains" style="width:100%">
+                <img src="img/paintings/Night.jpg" class="clickable-img" alt="Mountains" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Ocean.jpg" alt="Snow" style="width:100%">
+                <img src="img/paintings/Ocean.jpg" class="clickable-img" alt="Snow" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Willoughby Gap.jpg" alt="Forest" style="width:100%">
+                <img src="img/paintings/Willoughby Gap.jpg" class="clickable-img" alt="Forest" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Ocean Sunset.jpg" alt="Mountains" style="width:100%">
+                <img src="img/paintings/Ocean Sunset.jpg" class="clickable-img" alt="Mountains" style="width:100%">
             </div>
             <div class="column">
-                <img src="img/paintings/Tulips.jpg" alt="Mountains" style="width:100%">
+                <img src="img/paintings/Tulips.jpg" class="clickable-img"  alt="Mountains" style="width:100%">
             </div>
         </div>
 
@@ -182,14 +182,29 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <img class="img-fluid mb-5" src="img/paintings/Branch.png" alt="">
+                        <img class="img-fluid mb-5" src="img/paintings/Branch.jpg" alt="">
                         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                             <i class="fa fa-close"></i>
-                            Close Project</a>
+                            Close</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+     <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
 </body>
 </html>
