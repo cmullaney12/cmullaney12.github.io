@@ -383,10 +383,6 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 
-.interest{
-  opacity:.5;
-}
-
 .interest:hover{
-  opacity:1;
+  opacity:0.75;
 }
