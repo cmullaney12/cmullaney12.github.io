@@ -21,7 +21,6 @@ $(document).ready(function(){
         infinite: true,
         centerMode: true,
         centerPadding: '60px',
-        // slidesToShow: 3,
         adaptiveHeight:true,
         responsive: [
             {
@@ -29,8 +28,7 @@ $(document).ready(function(){
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
+                centerPadding: '40px'
             }
             },
             {
@@ -38,8 +36,7 @@ $(document).ready(function(){
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                centerPadding: '40px'
             }
             }
         ]
