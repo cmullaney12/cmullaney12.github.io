@@ -19,7 +19,7 @@
 
 <body id="page-top">
 
-    <nav id="mainNav">
+    <nav id="mainNav" class="desktop-header">
         <ul class="flex-container">
             <li class="sidebar flex-item"> <a href="about.html">About</a></li>
             <li class="sidebar flex-item"> <a href="projects.html">Projects</a>
@@ -29,25 +29,55 @@
             </div>
         </div>
     </nav>
+    <nav id="mobileNav" class="mobile-header">
+        <div id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="flex-container">
+            <li class="main flex-item"> <a href="index.html">Colin Mullaney</a></li>
+        </ul>
+    </nav>
+    <div id="mobileMenu">
+        <div >
+            <div class="mobile-menu-item"> <a href="about.html">About</a></div>
+            <div class="mobile-menu-item"> <a href="projects.html">Projects</a></div>
+            <div class="mobile-menu-item"> <a href="interests.html">Interests</a></div>
+            <div class="mobile-menu-item"> <a href="contact.html">Contact</a></div>
+        </div>
+    </div>
     <br>
     <br>
     <section class="contact" id="contact">
         <h2 class="page-header"> Please contact me! </h2>
+        <div class="main-content text-center">
+            <p><strong>Cell:</strong> 860-977-8101 <br>
+            <strong>Email:</strong> mullaney.c@husky.neu.edu <br>
+            <strong>Address:</strong> 440 Huntington Ave, Boston MA, 02115</p>
+        </div>
         <div class="row">
-            <div><a href="mailto:mullaney.c@husky.neu.edu" target="_blank">
-                <img class="contact-icon" src="img/icons/gmail.png"></a>
+            <div class="center" style="width:25%;float:left">
+                <a href="mailto:mullaney.c@husky.neu.edu" target="_blank">
+                <img class="center contact-icon" src="img/icons/gmail.png"></a>
             </div>
-            <div><a href="https://www.linkedin.com/in/colin-mullaney/" target="_blank"> 
-                <img class="contact-icon" src="img/icons/linkedin.png"></a>
+            <div class="center" style="width:25%;float:left">
+                <a href="https://www.linkedin.com/in/colin-mullaney/" target="_blank"> 
+                <img class="center contact-icon" src="img/icons/linkedin.png"></a>
             </div>
-            <div><a href="https://github.com/cmullaney12/" target="_blank">
-                <img class="contact-icon" src="img/icons/github.png"></a>
+            <div class="center" style="width:25%;float:left">
+                <a href="https://github.com/cmullaney12/" target="_blank">
+                <img class="center contact-icon" src="img/icons/github.png"></a>
             </div>
             <!-- <div><a href="https://www.instagram.com/colin_mullaney/"> Instagram</a></div> -->
-            <div><a href="docs/CM-resume.pdf" target="_blank">
-                <img class="contact-icon" src="img/icons/link.png"></a>
+            <div class="center" style="width:25%;float:left">
+                <a href="docs/CMResume.pdf" target="_blank">
+                <img class="center contact-icon" src="img/icons/link.png"></a>
             </div>
         </ul>
     </section>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
