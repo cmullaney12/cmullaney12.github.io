@@ -1,9 +1,12 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, .mont-font {
     font-family: 'Montserrat', sans-serif;
 }
 
 #mainNav {
     background: rgb(219, 141, 52);
+    /* position:fixed;
+    width:100%;
+    overflow:hidden; */
 }
 
 body {
@@ -11,6 +14,10 @@ body {
 }
 .text-center {
     text-align: center;
+}
+
+.center {
+    margin:auto;
 }
 
 .main-content {
@@ -105,7 +112,24 @@ body {
     color: gray;
 }
 
-.not-active a {
-    color: black;    
+.slick-prev:before,
+.slick-next:before {
+  color: black!important;
 }
 
+.painting-carousel img {
+    height:70%;
+    width:70%;
+}
+
+.carousel-caption {
+    padding-top:10px;
+    text-align: center;
+}
+
+.contact-icon {
+    width:50px;
+    height:50px;
+}
+
+.contact-icon:hover {opacity: 0.7;}
