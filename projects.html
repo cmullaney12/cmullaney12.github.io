@@ -18,7 +18,7 @@
 
 <body id="page-top">
 
-    <nav id="mainNav">
+    <nav id="mainNav" class="desktop-header">
         <ul class="flex-container">
             <li class="sidebar flex-item"> <a href="about.html">About</a></li>
             <li class="sidebar flex-item active"> <a href="projects.html">Projects</a>
@@ -28,9 +28,27 @@
             </div>
         </div>
     </nav>
+    <nav id="mobileNav" class="mobile-header">
+        <div id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="flex-container">
+            <li class="main flex-item"> <a href="index.html">Colin Mullaney</a></li>
+        </ul>
+        <div id="mobileMenu">
+            <div style="height: 80%">
+                <div class="mobile-menu-item"> <a href="about.html">About</a></div>
+                <div class="mobile-menu-item"> <a href="projects.html">Projects</a></div>
+                <div class="mobile-menu-item"> <a href="interests.html">Interests</a></div>
+                <div class="mobile-menu-item"> <a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+    </nav>
     <br>
     <br>
-    <section class="projects" id="projects">
+    <!-- <section class="projects" id="projects"> -->
         <div class="container">
             <h2 class="page-header">My Projects</h2>
             <p class="paragraph-header"> <a href="https://github.com/cmullaney12/YelpClassifier" target="_blank">Yelp Rating Classifier</a></p>
@@ -67,19 +85,25 @@
             <br>
             <div class="center" style="width:60%;">
                 <div class="interest-image">
-                    <h4 style="text-align: center;"> Depth First Search</h6>
+                    <h4 style="text-align: center;"> Depth First Search</h4>
                     <video class="center video" loop muted autoplay>
                         <source src="vids/MazeDepthFirst.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="interest-image">
-                    <h4 style="text-align:center;"> Breadth First Search</h6>
+                    <h4 style="text-align:center;"> Breadth First Search</h4>
                     <video class="center video" loop muted autoplay>
                         <source src="vids/MazeBreadthFirst.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-            </div>    
+            </div>
+        </div>    
+    <!-- </section> -->
+    <footer></footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

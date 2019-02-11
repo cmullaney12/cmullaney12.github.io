@@ -21,17 +21,34 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav id="mainNav">
-        <ul class="flex-container">
-            <li class="sidebar flex-item active"> <a href="about.html">About</a></li>
-            <li class="sidebar flex-item"> <a href="projects.html">Projects</a>
-            <li class="main flex-item"> <a href="index.html">Colin Mullaney</a></li>
-            <li class="sidebar flex-item"> <a href="interests.html">Interests</a></li>
-            <li class="sidebar flex-item"> <a href="contact.html">Contact</a></li>
+  <nav id="mainNav" class="desktop-header">
+      <ul class="flex-container">
+          <li class="sidebar flex-item active"> <a href="about.html">About</a></li>
+          <li class="sidebar flex-item"> <a href="projects.html">Projects</a>
+          <li class="main flex-item"> <a href="index.html">Colin Mullaney</a></li>
+          <li class="sidebar flex-item"> <a href="interests.html">Interests</a></li>
+          <li class="sidebar flex-item"> <a href="contact.html">Contact</a></li>
           </div>
-        </div>
-    </nav>
-
+      </div>
+  </nav>
+  <nav id="mobileNav" class="mobile-header">
+      <div id="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <ul class="flex-container">
+          <li class="main flex-item"> <a href="index.html">Colin Mullaney</a></li>
+      </ul>
+      <div id="mobileMenu">
+          <div style="height: 80%">
+              <div class="mobile-menu-item"> <a href="about.html">About</a></div>
+              <div class="mobile-menu-item"> <a href="projects.html">Projects</a></div>
+              <div class="mobile-menu-item"> <a href="interests.html">Interests</a></div>
+              <div class="mobile-menu-item"> <a href="contact.html">Contact</a></div>
+          </div>
+      </div>
+  </nav>
   <!-- Header -->
   <header>
     <div class="container">
@@ -72,6 +89,10 @@
       </div>
     </div>
   </section>
+  <footer></footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
