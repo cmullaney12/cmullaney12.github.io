@@ -53,16 +53,16 @@ body {
 
     border-bottom: 2px rgb(15, 5, 70);
 }
-
+.shadow {
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
 .profile-image {
     display: block;
     margin:auto;
     border-radius: 50%;
     width:50%;
-
-    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 }
 
 .page-header, .paragraph-header {
@@ -140,6 +140,10 @@ body {
 
 .clickable-img:hover {opacity: 0.7;}
 
+.video {
+    width:250px;
+}
+
 .interest-image {
     width:50%;
     float:left;
@@ -205,8 +209,8 @@ body {
 /* Burger Menu animation from https://codepen.io/designcouch/pen/Atyop */
 
 #burger-menu {
-    width: 60px;
-    height: 45px;
+    width: 40px;
+    height: 30px;
     position: relative;
     margin-left:30px;
     margin-top:45px;
@@ -225,7 +229,7 @@ body {
 #burger-menu span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 6px;
     width: 100%;
     background: black;
     border-radius: 9px;
@@ -246,15 +250,15 @@ body {
 }
   
 #burger-menu span:nth-child(2) {
-    top: 18px;
+    top: 12px;
 }
   
 #burger-menu span:nth-child(3) {
-    top: 36px;
+    top: 24px;
 }
   
 #burger-menu.open span:nth-child(1) {
-    top: 18px;
+    top: 12px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     -o-transform: rotate(135deg);
@@ -267,7 +271,7 @@ body {
 }
   
 #burger-menu.open span:nth-child(3) {
-    top: 18px;
+    top: 12px;
     -webkit-transform: rotate(-135deg); 
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
@@ -291,14 +295,14 @@ body {
         display:none;
     }
     .painting-carousel {
-        width:90%;
+        width:80%;
     }
     .interest-image {
         width:95%;
     }
 
     .interest-image img {
-        height:100px;
+        height:150px;
     }
 
     .contact-icon {
@@ -313,5 +317,12 @@ body {
         margin:auto;
         border-radius: 50%;
         width:80%;
+    }
+
+    .main {
+        font-size:30px;
+    }
+    .main-content {
+        width:85%;
     }
 }

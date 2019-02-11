@@ -26,7 +26,8 @@ $(document).ready(function(){
             {
             breakpoint: 768,
             settings: {
-                arrows: false,
+                dots:false,
+                // arrows: false,
                 centerMode: true,
                 centerPadding: '40px'
             }
@@ -34,7 +35,8 @@ $(document).ready(function(){
             {
             breakpoint: 480,
             settings: {
-                arrows: false,
+                dots:false,
+                // arrows: false,
                 centerMode: true,
                 centerPadding: '40px'
             }
