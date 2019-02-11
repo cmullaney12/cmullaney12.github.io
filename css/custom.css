@@ -304,8 +304,8 @@ footer {
         display:none;
     }
     .title-page-header {
-        font-size: 16px;
-        margin-left: 2%;
+        font-size: 24px;
+        margin:auto;
     }
     .painting-carousel {
         width:80%;

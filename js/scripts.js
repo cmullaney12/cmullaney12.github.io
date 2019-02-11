@@ -70,7 +70,8 @@ var loopText = [
 // ]
 var i = 0;
 var max = loopText.length;
-var $text = $('#swap-text');
+var $textDesktop = $('#swap-text-desktop');
+var $textMobile = $('#swap-text-mobile');
 var css = {};
 
 // Immediately Invoked Named Function Expression - we define it then
@@ -85,7 +86,13 @@ var css = {};
     }
     if (i < max) {
         // css['color'] = loopColor[i]
-        $text
+        $textDesktop
+            .fadeOut(0)
+            .text(loopText[i++])
+            .css(css)
+            .fadeIn(500);
+        
+        $textMobile
             .fadeOut(0)
             .text(loopText[i++])
             .css(css)
