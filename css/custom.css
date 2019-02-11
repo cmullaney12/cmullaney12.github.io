@@ -30,6 +30,15 @@ body {
     line-height: 25px;
 }
 
+.title-page-header {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 25%;
+}
+
 .flex-container {
     padding:30px;
     margin: 0;
@@ -293,6 +302,10 @@ footer {
     }
     .desktop-header {
         display:none;
+    }
+    .title-page-header {
+        font-size: 16px;
+        margin-left: 10%;
     }
     .painting-carousel {
         width:80%;

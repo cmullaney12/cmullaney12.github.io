@@ -45,3 +45,54 @@ $(document).ready(function(){
 
   });
 });
+
+
+// Text scrolling for home page, https://stackoverflow.com/questions/39381810/fade-in-and-out-word-in-sentence-for-one-loop
+var loopText = [
+    'Learner',
+    'Mentor',
+    'Painter',
+    'Amateur Chef',
+    'Board Game Buff',
+    'Comic Book Nerd',
+    'Hockey Fan',
+    'Avid Skiier',
+    'Hard Worker'
+  ];
+// var loopColor = [
+//     'red',
+//     'blue',
+//     'orange',
+//     'yellow',
+//     'green',
+//     'brown',
+//     'purple'
+// ]
+var i = 0;
+var max = loopText.length;
+var $text = $('#swap-text');
+var css = {};
+
+// Immediately Invoked Named Function Expression - we define it then
+// immediately call it by the parenthesis after the closing bracket,
+// function (){}(). Once it has done it's work we call it again with
+// `setTimeout()` as long as our counter `i` is not equal to the 
+// number of entries in the `loopText` array.
+(function changeText() {
+  
+    if (i >= max) {
+        i = 0
+    }
+    if (i < max) {
+        // css['color'] = loopColor[i]
+        $text
+            .fadeOut(0)
+            .text(loopText[i++])
+            .css(css)
+            .fadeIn(500);
+    
+        setTimeout(changeText, 2500);
+  
+    }
+  
+}());
