@@ -154,7 +154,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     width: 50%;
-    height: 14%;
+    height: 25%;
     margin: auto;
     text-align: center;
     font-size: calc(100% + 1vw);
@@ -268,7 +268,7 @@ body {
   
 #burger-menu.open span:nth-child(3) {
     top: 18px;
-    -webkit-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg); 
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
@@ -276,9 +276,9 @@ body {
 
 #mobileMenu {
     background-image: url("../img/backgrounds/denim.png");
-    height: 100vh;
+    height: 40vh;
     width: 100vw;
-    position: fixed;
+    /* position: fixed; */
     display:none;
 }
 
