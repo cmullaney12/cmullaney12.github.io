@@ -86,15 +86,16 @@ var css = {};
     }
     if (i < max) {
         // css['color'] = loopColor[i]
+        i++
         $textDesktop
             .fadeOut(0)
-            .text(loopText[i++])
+            .text(loopText[i])
             .css(css)
             .fadeIn(500);
         
         $textMobile
             .fadeOut(0)
-            .text(loopText[i++])
+            .text(loopText[i])
             .css(css)
             .fadeIn(500);
     
