@@ -56,19 +56,11 @@ var loopText = [
     'Board Game Buff',
     'Comic Book Nerd',
     'Hockey Fan',
-    'Avid Skiier',
+    'Avid Skier',
     'Hard Worker'
   ];
-// var loopColor = [
-//     'red',
-//     'blue',
-//     'orange',
-//     'yellow',
-//     'green',
-//     'brown',
-//     'purple'
-// ]
-var i = 0;
+
+  var i = 0;
 var max = loopText.length;
 var $textDesktop = $('#swap-text-desktop');
 var $textMobile = $('#swap-text-mobile');
@@ -85,8 +77,6 @@ var css = {};
         i = 0
     }
     if (i < max) {
-        // css['color'] = loopColor[i]
-        i++
         $textDesktop
             .fadeOut(0)
             .text(loopText[i])
@@ -98,6 +88,8 @@ var css = {};
             .text(loopText[i])
             .css(css)
             .fadeIn(500);
+        
+        i++
     
         setTimeout(changeText, 2500);
   
